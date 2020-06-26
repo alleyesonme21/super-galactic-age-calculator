@@ -18,8 +18,8 @@ describe('Planets', () => {
    })
    test("If a user is 60 years old on Earth, their age on Venus is .62 Earth years and 60 /(.62) = 97 years old", () => {
      let calculateVenus = new Planets(.24, .62, 1.88, 11.88, 11.86);
-     calculateVenus.checkMercury();
-     expect(calculateVenus.earth).toBe(96.7741935);
+     calculateVenus.checkVenus();
+     expect(calculateVenus.earth).toBe(96.7741935483871);
    })
 
 });

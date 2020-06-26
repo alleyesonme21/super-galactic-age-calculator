@@ -16,14 +16,14 @@ _Mercury age_
  If a user is 38 years old on Earth, their age on Earth is .24 Earth years and 38 /(.24) = 158 years old |
 
 __Venus age
-| If a user is 38 years old on Earth, their age on Earth is .24 Earth years and 38 /(.24) = 158 years old__
+| If a user is 60 years old on Earth, their age on Earth is .62 Earth years and 60 /(.62) = 97 years old__
 
 __Mars age
-| If a user is 38 years old on Earth, their age on Earth is .24 Earth years and 38 /(.24) = 158 years old__
+| If a user is 20 years old on Earth, their age on Earth is 1.88 Earth years and 20 /(1.88) = 11 years old__
 
 
 __Jupiter age
-| If a user is 38 years old on Earth, their age on Earth is .24 Earth years and 38 /(.24) = 158 years old__
+| If a user is 70 years old on Earth, their age on Earth is 11.86 Earth years and 70 /(11.86) = 6 years old__
 
 
 

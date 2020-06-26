@@ -10,8 +10,10 @@ constructor(mercury, venus, mars, jupiter, earth) {
  checkMercury() {
    this.earth = 38;
    this.earth /= 0.24; 
-  
- 
- 
  }
+  checkVenus() {
+   this.earth = 60;
+   this.earth /= this.venus;
+  }
+
 };

@@ -20,6 +20,11 @@ describe('Planets', () => {
     calculateMars.checkMars();
     expect(calculateMars.earth).toBe(10.638297872340425);
    })
+    test("If a user is 70 years old on Earth, their age on Jupiter is 11.86 Earth years and 70 /(11.86) = 6 years old", () => {
+      let calculateJupiter = new Planets(.24, .62, 1.88, 11.86);
+      calculateJupiter.checkJupiter();
+       expect(calculateJupiter.earth).toBe(5.902192242833053);
 
+    })
 
 });

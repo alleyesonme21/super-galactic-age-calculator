@@ -6,24 +6,24 @@
 
 
 ## Description
-
+This program converts a user's inputted age on Earth into an age on various solar planets including Mercury, Venus, Mars and Jupiter. For example, a solar year lasts 365 days on Earth, but only 88 days on Mars. In addition, the program calculates life expectancy on different planets based on a user's current age. 
 
 ## Behaviors
 
 | Spec| Example input | Example Output
 | ----------- | ----------- | ----------- |
 _Mercury age_
- If a user is 38 years old on Earth, their age on Earth is .24 Earth years and 38 /(.24) = 158 years old |
+ If a user is 38 years old on Earth, their age on Mercury is .24 Earth years and 38 /(.24) = 158 years old |
 
 __Venus age
-| If a user is 60 years old on Earth, their age on Earth is .62 Earth years and 60 /(.62) = 97 years old__
+| If a user is 60 years old on Earth, their age on Venus is .62 Earth years and 60 /(.62) = 97 years old__
 
 __Mars age
-| If a user is 20 years old on Earth, their age on Earth is 1.88 Earth years and 20 /(1.88) = 11 years old__
+| If a user is 20 years old on Earth, their age on Mars is 1.88 Earth years and 20 /(1.88) = 11 years old__
 
 
 __Jupiter age
-| If a user is 70 years old on Earth, their age on Earth is 11.86 Earth years and 70 /(11.86) = 6 years old__
+| If a user is 70 years old on Earth, their age on Jupiter is 11.86 Earth years and 70 /(11.86) = 6 years old__
 
 
 
@@ -42,7 +42,6 @@ __Jupiter age
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open via Bash/GitBash:
 
 1. Clone this repository onto your computer:
-    "git clone https://github.com/Lackeyt/RPG-game"
 2. Navigate into the "RPG-game" directory in Visual Studio Code or preferred text editor:
 3. Open the project
     "code ."

@@ -30,12 +30,16 @@ test("If a user is 70 years old on Earth, their age on Jupiter is 11.86 Earth ye
 });
 
 beforeEach(() => {
-  calculateExpect = new Planets(300, 100, 80, 60, 40);
+  calculateExpect = new Planets(300, 100, 80, 60, 30);
 })
 
-test("The life expectancy is 300 years on Mercury and users's age is 200 years, the years left to live is 300 - 200 user's age = 100 years old", () => {
+test("The life expectancy is 300 years on Mercury and users's age is 200 years, the years left to live is 300 - 200 user's age = 100 ", () => {
 calculateExpect.expectancyMercury();
 expect(calculateExpect.age).toBe(100)
 })
-
+test("The life expectancy is 100 years on Venus and users's age is 70 years, the years left to live is 100 - 70 user's age = 30 ", () => {
+  calculateExpect.expectancyVenus();
+  expect(calculateExpect.age).toBe(30)
+  })
+  
 });

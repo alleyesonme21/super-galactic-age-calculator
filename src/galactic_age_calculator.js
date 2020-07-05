@@ -33,5 +33,18 @@ expectancyVenus() {
   this.age = 100;
   this.age -= 70; 
 }
+expectancyEarth() {
+  this.age = 80;
+  this.age -= 60; 
+}
+expectancyMars() {
+  this.age = 60;
+  this.age -= 50; 
+}
+expectancyJupiter() {
+  this.age = 30;
+  this.age -= 25; 
+}
+
 
 };

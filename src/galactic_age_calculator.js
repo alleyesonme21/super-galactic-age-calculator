@@ -1,26 +1,27 @@
 //Business Logic
 export class Planets{ 
-constructor(mercury, venus, mars, jupiter, earth) {
-  this.mercury = mercury;
-  this.venus = venus;
-  this.mars = mars; 
-  this.jupiter = jupiter;
-  this.earth = earth;
+constructor(age) {
+  // this.mercury = mercury;
+  // this.venus = venus;
+  // this.mars = mars; 
+  // this.jupiter = jupiter;
+  // this.earth = earth;
+  this.age = age;
 }
 checkMercury() {
-  this.earth = 38;
-  this.earth /= 0.24; 
+  this.age = 38;
+  this.age /= 0.24; 
 }
 checkVenus() {
-  this.earth = 60;
-  this.earth /= this.venus;
+  this.age = 60;
+  this.age /= 0.62;
 }
 checkMars() {
-  this.earth = 20;
-  this.earth /= this.mars;
+  this.age = 20;
+  this.age /= 1.88;
 }
 checkJupiter() {
-  this.earth = 70;
-  this.earth /= this.jupiter;
+  this.age = 70;
+  this.age /= 11.86;
 }
 };

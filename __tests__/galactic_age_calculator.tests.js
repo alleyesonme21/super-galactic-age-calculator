@@ -3,6 +3,7 @@ import { Planets } from './../src/galactic_age_calculator.js';
 
 describe('Planets', () => {
   let calculateAge;
+  let calculateExpect;
 
 beforeEach(() => {
   calculateAge = new Planets(0.24, 0.62, 1.88, 11.88);
@@ -27,4 +28,14 @@ test("If a user is 70 years old on Earth, their age on Jupiter is 11.86 Earth ye
   calculateAge.checkJupiter();
   expect(parseInt(calculateAge.age.toFixed())).toBe(6);
 });
+
+beforeEach(() => {
+  calculateExpect = new Planets(300, 100, 80, 60, 40);
+})
+
+test("The life expectancy is 300 years on Mercury and users's age is 200 years, the years left to live is 300 - 200 user's age", () => {
+calculateExpect.age.expectancyMercury();
+expect(calculateExpect.age).toBe(100)
+})
+
 });

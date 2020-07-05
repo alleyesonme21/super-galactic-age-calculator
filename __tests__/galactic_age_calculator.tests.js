@@ -41,5 +41,17 @@ test("The life expectancy is 100 years on Venus and users's age is 70 years, the
   calculateExpect.expectancyVenus();
   expect(calculateExpect.age).toBe(30)
   })
+  test("The life expectancy is 80 years on Earth and users's age is 60 years, the years left to live is 80 - 60 user's age = 20 ", () => {
+    calculateExpect.expectancyEarth();
+    expect(calculateExpect.age).toBe(20)
+    })
+    test("The life expectancy is 60 years on Mars and users's age is 50 years, the years left to live is 60 - 50 user's age = 10 ", () => {
+      calculateExpect.expectancyMars();
+      expect(calculateExpect.age).toBe(10)
+      })
+      test("The life expectancy is 30 years on Jupiter and users's age is 25 years, the years left to live is 30 - 25  = 5 years", () => {
+        calculateExpect.expectancyJupiter();
+        expect(calculateExpect.age).toBe(5)
+        })
   
 });

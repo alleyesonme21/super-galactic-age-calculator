@@ -29,5 +29,9 @@ expectancyMercury() {
   this.age = 300;
   this.age -= 200; 
 }
+expectancyVenus() {
+  this.age = 100;
+  this.age -= 70; 
+}
 
 };

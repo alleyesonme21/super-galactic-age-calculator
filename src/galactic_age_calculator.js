@@ -7,6 +7,7 @@ constructor(age) {
   // this.jupiter = jupiter;
   // this.earth = earth;
   this.age = age;
+  // this.expect = expect;
 }
 checkMercury() {
   this.age = 38;
@@ -24,4 +25,9 @@ checkJupiter() {
   this.age = 70;
   this.age /= 11.86;
 }
+expectancyMercury() {
+  this.age = 300;
+  this.age -= 200; 
+}
+
 };

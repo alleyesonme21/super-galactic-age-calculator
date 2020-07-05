@@ -4,29 +4,25 @@
 ##### __Created:__ 6/26/2020 
 ##### By _**Johnny Duverseau**_  
 
-
 ## Description
 This program converts a user's inputted age on Earth into an age on various solar planets including Mercury, Venus, Mars and Jupiter. For example, a solar year lasts 365 days on Earth, but only 88 days on Mars. In addition, the program calculates life expectancy on different planets based on a user's current age. 
 
-## Behaviors
+## Specifications
+_The program calculates age of a user on Mercury_
+* Input: 38 years old on Earth
+* Output: 158 years old on Mercury
 
-| Spec| Example input | Example Output
-| ----------- | ----------- | ----------- |
-_Mercury age_
- If a user is 38 years old on Earth, their age on Mercury is .24 Earth years and 38 /(.24) = 158 years old |
+_The program calculates age of a user on venus_
+* Input: 60 years old on Earth
+* Output: 97 years old on Venus
 
-__Venus age
-| If a user is 60 years old on Earth, their age on Venus is .62 Earth years and 60 /(.62) = 97 years old__
+_The program calculates age of a user on Mars_
+* Input: 20 years old on Earth
+* Output: 11 years old on Mars
 
-__Mars age
-| If a user is 20 years old on Earth, their age on Mars is 1.88 Earth years and 20 /(1.88) = 11 years old__
-
-
-__Jupiter age
-| If a user is 70 years old on Earth, their age on Jupiter is 11.86 Earth years and 70 /(11.86) = 6 years old__
-
-
-
+_The program calculates age of a user on Jupiter_
+* Input: 70 years old on Earth
+* Output: 6 years old on Jupiter
 
 ## Setup/Installation Requirements
 
@@ -74,10 +70,9 @@ __Jupiter age
 * Bootstrap
 * Javascript
 * JQuery
+* Webpack
 
 ## Resources:
-
-* 
 
 ### License
 

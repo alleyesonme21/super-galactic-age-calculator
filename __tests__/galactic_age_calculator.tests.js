@@ -33,8 +33,8 @@ beforeEach(() => {
   calculateExpect = new Planets(300, 100, 80, 60, 40);
 })
 
-test("The life expectancy is 300 years on Mercury and users's age is 200 years, the years left to live is 300 - 200 user's age", () => {
-calculateExpect.age.expectancyMercury();
+test("The life expectancy is 300 years on Mercury and users's age is 200 years, the years left to live is 300 - 200 user's age = 100 years old", () => {
+calculateExpect.expectancyMercury();
 expect(calculateExpect.age).toBe(100)
 })
 

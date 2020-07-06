@@ -24,6 +24,29 @@ _The program calculates age of a user on Jupiter_
 * Input: 70 years old on Earth
 * Output: 6 years old on Jupiter
 
+_The program calculates the life expectancy of a user on Mercury is 300 years_
+* Input: 200 years old 
+* Output: 100 Years left to live on Mercury
+
+_The program calculates the life expectancy of a user on venus is 100 years_
+* Input: 70 years old 
+* Output: 30 Years left to live on Venus
+
+_The program calculates the life expectancy of a user on Earth is 80 years_
+* Input: 60 years old 
+* Output: 20 Years left to live on Earth
+
+_The program calculates the life expectancy of a user on Mars is 60 years_
+* Input: 50 years old 
+* Output: 10 Years left to live on Mars
+
+_The program calculates the life expectancy of a user on Jupiter is 30 years_
+* Input: 25 years old 
+* Output: 5 Years left to live on Jupiter
+
+
+
+
 ## Setup/Installation Requirements
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open by downloading:

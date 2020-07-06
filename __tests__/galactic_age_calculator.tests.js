@@ -5,7 +5,7 @@ describe('Planets', () => {
   let calculateAge;
   let calculateExpect;
 
-beforeEach(() => {
+  beforeEach(() => {
   calculateAge = new Planets(0.24, 0.62, 1.88, 11.88);
 })
 
@@ -34,24 +34,27 @@ beforeEach(() => {
 })
 
 test("The life expectancy is 300 years on Mercury and users's age is 200 years, the years left to live is 300 - 200 user's age = 100 ", () => {
-calculateExpect.expectancyMercury();
+  calculateExpect.expectancyMercury();
 expect(calculateExpect.age).toBe(100)
 })
+
 test("The life expectancy is 100 years on Venus and users's age is 70 years, the years left to live is 100 - 70 user's age = 30 ", () => {
   calculateExpect.expectancyVenus();
   expect(calculateExpect.age).toBe(30)
-  })
-  test("The life expectancy is 80 years on Earth and users's age is 60 years, the years left to live is 80 - 60 user's age = 20 ", () => {
-    calculateExpect.expectancyEarth();
-    expect(calculateExpect.age).toBe(20)
-    })
-    test("The life expectancy is 60 years on Mars and users's age is 50 years, the years left to live is 60 - 50 user's age = 10 ", () => {
-      calculateExpect.expectancyMars();
-      expect(calculateExpect.age).toBe(10)
-      })
-      test("The life expectancy is 30 years on Jupiter and users's age is 25 years, the years left to live is 30 - 25  = 5 years", () => {
-        calculateExpect.expectancyJupiter();
-        expect(calculateExpect.age).toBe(5)
-        })
-  
-});
+})
+
+test("The life expectancy is 80 years on Earth and users's age is 60 years, the years left to live is 80 - 60 user's age = 20 ", () => {
+  calculateExpect.expectancyEarth();
+  expect(calculateExpect.age).toBe(20)
+})
+
+test("The life expectancy is 60 years on Mars and users's age is 50 years, the years left to live is 60 - 50 user's age = 10 ", () => {
+  calculateExpect.expectancyMars();
+  expect(calculateExpect.age).toBe(10)
+})
+
+test("The life expectancy is 30 years on Jupiter and users's age is 25 years, the years left to live is 30 - 25  = 5 years", () => {
+  calculateExpect.expectancyJupiter();
+  expect(calculateExpect.age).toBe(5)
+})
+}); 

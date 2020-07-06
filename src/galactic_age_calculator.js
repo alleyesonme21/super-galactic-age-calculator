@@ -1,13 +1,8 @@
 //Business Logic
-export class Planets{ 
+export class Planets { 
+
 constructor(age) {
-  // this.mercury = mercury;
-  // this.venus = venus;
-  // this.mars = mars; 
-  // this.jupiter = jupiter;
-  // this.earth = earth;
   this.age = age;
-  // this.expect = expect;
 }
 checkMercury() {
   this.age = 38;
@@ -45,6 +40,4 @@ expectancyJupiter() {
   this.age = 30;
   this.age -= 25; 
 }
-
-
 };

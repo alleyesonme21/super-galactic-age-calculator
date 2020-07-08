@@ -29,22 +29,18 @@ test("It will show the users current age on Jupiter.", () => {
 });
 
 test("It will show the users'years left to live on Mercury", () => {
-  // calculateExpect.expectancyVenus();
-  expect(calculateAge.expectancyMercury()).toBe()
+  expect(calculateAge.expectancyMercury()).toBe("You have 217 left to live")
 });
 
 test("It will show the users'years left to live on venus", () => {
-  // calculateExpect.expectancyVenus();
-  expect(calculate.expectancyVenus()).toBe()
+  expect(calculateAge.expectancyVenus()).toBe("You have 84 left to live")
 });
 
- test("It will show the users'years left to live on Mars", () => {
-  //  calculateExpect.expectancyMars();
-   expect(calculateExpect.expectancyMars()).toBe()
- });
+test("It will show the users'years left to live on Mars", () => {
+  expect(calculateAge.expectancyMars()).toBe("You have 28 left to live")
+});
 
 test("It will show the users'years left to live on Jupiter", () => {
-  // calculateAge.expectancyJupiter();
   expect(calculateAge.expectancyJupiter()).toBe("You have 5 left to live")
 });
 

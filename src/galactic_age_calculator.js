@@ -5,7 +5,6 @@ constructor(age, lifeExpectancy) {
   this.age = age;
   this.lifeExpectancy = lifeExpectancy;
 }
-
 checkMercury() {
   this.age = parseInt((this.age /= 0.24).toFixed()); 
 }

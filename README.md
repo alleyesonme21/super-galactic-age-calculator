@@ -9,38 +9,36 @@ This program converts a user's inputted age on Earth into an age on various sola
 
 ## Specifications
 _The program calculates age of a user on Mercury_
-* Input: 38 
-* Output: 158 years old on Mercury
+* Input: 70 
+* Output: 292 years old on Mercury
 
 _The program calculates age of a user on venus_
-* Input: 38
-* Output: 61 years old on Venus
+* Input: 70
+* Output: 113 years old on Venus
 
 _The program calculates age of a user on Mars_
-* Input: 38
-* Output: 20 years old on Mars
+* Input: 70
+* Output: 37 years old on Mars
 
 _The program calculates age of a user on Jupiter_
-* Input: 38
-* Output: 3 years old on Jupiter
+* Input: 70
+* Output: 6 years old on Jupiter
 
 _The program calculates the life expectancy of a user on Mercury_
-* Input: 90
-* Output: 217 Years left to live on Mercury
+* Input: 95
+* Output:  -104 past your life expectancy
 
 _The program calculates the life expectancy of a user on venus_
-* Input: 90 
-* Output: 84 Years left to live on Venus
+* Input: 95 
+* Output: -40 past your life expectancy
 
 _The program calculates the life expectancy of a user on Mars_
-* Input: 90 
-* Output: 28 Years left to live on Mars
+* Input: 95 
+* Output: -14 past your life expectancy
 
 _The program calculates the life expectancy of a user on Jupiter_
-* Input: 90 
-* Output: 5 Years left to live on Jupiter
-
-
+* Input: 95 
+* Output: -2 past your life expectancy
 
 
 ## Setup/Installation Requirements
